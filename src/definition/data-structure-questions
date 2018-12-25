@@ -57,10 +57,24 @@ Non-Linear data structure: Trees, Graphs
 What is Big-(O)-notation?
 A. Big O notations are used to describe the performance or complexity of an algorithm.
 Outlined different kind of sorting algorithm with time complexity?
+A.
+bubblesort = n^2
+InsertionSort = n^2
+SelectionSort = 2^2
+QuickSort = nlogn
+mergesort = nlogn
+bucketSort= n+k
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
+A.
+  array: search o(n), access o(1), insert o(n), deletion o(n)
+    arraylist: search o(n), access o(1), insert o(n), deletion o(n)
+    linkedlist: search o(n), access o(1), insert o(1), deletion o(1)
+    stack: search o(n), access o(n), insert o(1), deletion o(1)
+    queue: search o(n), access o(n), insert o(1), deletion o(1)
+    B-Tree: search o(log n), access o(log n), insert o(log n), deletion o(log n)
 
 
