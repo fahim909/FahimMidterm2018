@@ -67,4 +67,4 @@ public class PrimeNumber {
 		PrimeNumber g = new PrimeNumber();
 		g.sieveOfEratosthenes(n);
 	}
-} // 549 milliseconds
+}
